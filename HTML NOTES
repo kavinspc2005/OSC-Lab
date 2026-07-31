@@ -1,1 +1,220 @@
+HTML NOTES:
+---------------------------------------------------------
+HTML TAGS TPYES:
 
+Stand alone elements- only for opening tag
+void element - 
+
+container - contains both opening and closings 
+---------------------------------------------------------
+loading = rendering 
+
+meta tag introduce in html file
+meta tag - responsive
+
+---------------------------------------------------------
+Semantic elements in HTML :
+
+<header>
+<main>
+<section>
+<article>
+<aside>
+<footer>
+
+----------------------------------------------------------
+
+Console is to check error
+
+-----------------------------------------------------------
+./ - current folder.
+../pervious folder.
+
+---------------------------------------------------------
+<img src="./images (1).webp" alt="" height="" width="" />
+
+img = element
+alt =  name
+"image1" = value
+
+-------------------------------------------------------------
+
+
+
+
+CSS:
+
+cascading stylesheet
+-------------------------------------------------------------
+three type of styling:
+inline - horizontal <h1 style="color: aliceblue;">welcome</h1> 
+external - create an css file
+internal - inside head tag
+-----------------------------------------------------------
+selector nine type :
+
+common five selector :
+
+universal selector - *
+element selector - element name example h1.
+id selector - # multiple id names is not accept the single element name, id is unique to the element
+class selector - .(dot) multiple class name single element is accepted 
+grouping selector - ,
+-----------------------------------------------------------
+JAVA SCRIPT:
+- high level language
+- client side scripting language
+- case sensitive
+- .js extension 
+- es6 - egma script 
+------------------------------------------------------------
+output syntax: 
+
+- document.write() - print output in browser.
+- console.log() - sever side
+- alert() - pop window
+- innerHTML - 
+- innerText - 
+
+------------------------------------------------------------
+REPL :
+read
+evaluate 
+print
+loop
+------------------------------------------------------------
+variable - to store  reusable value 
+
+two type of variable
+- local variable - to dec inside a variable block and only access inside the block
+
+- global variable - the variable can to access even inside and outside
+
+keyword:
+
+var - function
+let - IT CAN BE REASSIGNED, INTRODUCE ES6
+cont - CANNOT BE CHANGED, unique value , INTRODUCE ES6
+
+-------------------------------------------------------
+parseInt - to convert string to number
+-------------------------------------------------------
+Function - reusable code
+
+user define :
+
+00 - no argument no return
+
+01 - no argument with return
+
+10 - with argument no return
+
+11 - with argument with return
+
+
+
+pre defind - system inbuilt function
+----------------------------------------------------------
+arrow function:
+let add=() =>{} 
+
+let - keyword
+add - function name
+= - equal 
+() - callback function
+=> - arrow function
+----------------------------------------------------------
+
+DOM - Document object model 
+
+get element id
+ ""    ""   tag name
+ ""    ""   query selector
+ ""    ""   query selector all
+
+----------------------------------------------------------
+EVENTS:
+
+	MOUSE EVENTS:
+on click
+
+KEY BOARD EVENTS:
+on key up
+on keypress
+on key down
+
+FORM EVENTS:
+on change
+on submit 
+
+WINDOW or DOCUMENT EVENTS:
+--------------------------------------------------
+padding - parent class 
+margin - whole parent class will move
+--------------------------------------------------
+JAVASCRIPT DATATYPE:
+- call by value/store an single value - primitive
+- store an multiple value / call by references - non primitive
+---------------------------------------------------
+null data type of  - object
+undefined - you declare an variable but not assign. 
+boollen - true or false 
+--------------------------------------------------
+non primitive:
+array - array index start for 0
+      - array length start for 1
+------------------------------------------------------------------
+PHP:
+
+- Hyper text pre-processor
+- php is server side scripting language
+- developmed dynamic and interactive web application
+- php code is excuted on web server
+- output is sent to user web brower as html
+
+FEATURES:
+
+- open source and free to use 
+- easy to learn
+- platform independent
+- can be embedded with html
+- supports multiple database]
+- fast and efficient for web development
+
+ADVANTAGE:
+
+- simple syntax
+- large community support
+- high performance
+- secure when code is properly
+
+- dynamic websites
+- e -com websites
+- content managements system
+-nlineforms
+- user authentication systems
+- REST API
+---------------------------------------------------------------
+PROGRAM :
+1. Design an image slideshow application using JavaScript DOM methods and setInterval() to 
+cycle through images automatically
+
+2. Develop a PHP program that calculates the electricity bill based on units consumed, using 
+conditional logic and slab-based rates
+
+3. Build a web-based feedback system using PHP and MySQL. Allow users to submit feedback 
+and display stored responses from the database
+
+4. Create a user login system using PHP and MySQL. Use sessions to maintain user 
+authentication and display a dashboard upon successful login
+
+5. Write a Node.js program that uses the fs module to create a text file, write data into it, read it 
+back, and display the contents in the console.
+
+6. Develop a student registration form using HTML and handle form submission with Node.jsand Express.js, displaying the submitted data on a new page.
+
+7. Create an Employee Information Portal using Node.js, Express, and MongoDB. Include 
+features to add, view, and delete employee records using Mongoose.
+
+8. Initialize a local Git repository and demonstrate basic version control operations including git 
+init, git add, and git commit
